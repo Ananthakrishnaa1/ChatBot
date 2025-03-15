@@ -26,9 +26,6 @@ langchain-ollama
 pydantic-settings
 python-dotenv
 
-Here's a sample README file to guide you through installing Ollama and the Llama 3.1:8B model:
-
----
 
 # README: Installing Ollama and Llama 3.1:8B
 
