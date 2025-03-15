@@ -118,29 +118,49 @@ Here's a sample README file to guide you through installing Ollama and the Llama
 
 ---
 
-Let me know if you need further assistance!
 
+Here’s a well-structured README file format based on your instructions:
 
-Setup
-Create and activate a virtual environment:
+---
 
+# ChatBot
+
+## Setup
+
+### Create and Activate a Virtual Environment
+```bash
+# For Linux/Mac
 python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
+source venv/bin/activate
 
+# For Windows
+python -m venv venv
+venv\Scripts\activate
+```
+
+### Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
-Configure environment variables in .env:
-
+### Configure Environment Variables
+Create a `.env` file in the root directory and add the following:
+```
 OLLAMA_BASE_URL=http://localhost:11434
 MODEL_NAME=llama3.1:8b
 TEMPERATURE=0.3
+```
 
-
+### Run the Application
+To start the application, run:
+```bash
 streamlit run src/main.py
+```
 
-Project Structure
+---
 
+## Project Structure
+```plaintext
 ChatBot/
 ├── src/
 │   ├── config/        # Configuration settings
@@ -150,12 +170,24 @@ ChatBot/
 │   └── main.py        # Application entry point
 ├── requirements.txt    # Project dependencies
 └── .env               # Environment variables
+```
 
-Usage
-Start the chat interface in your browser
-Type coding questions in the input field
-Get AI-powered responses for coding assistance
-Continue the conversation naturally
-Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+---
+
+## Usage
+
+1. Start the chat interface in your browser.
+2. Type your coding questions in the input field.
+3. Get AI-powered responses for coding assistance.
+4. Continue the conversation naturally.
+
+---
+
+## Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+Feel free to adapt this format further to suit your project's needs. Let me know if you'd like any additional sections or details!
 
