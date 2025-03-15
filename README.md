@@ -115,11 +115,6 @@ python-dotenv
 
 ---
 
-
-Here’s a well-structured README file format based on your instructions:
-
----
-
 # ChatBot
 
 ## Setup
