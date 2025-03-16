@@ -1,6 +1,6 @@
-# ChatBot
+# Offline Code Assistant
 
-An offline chatbot powered by LLAMA, LangChain, and Ollama.
+An offline chatbot powered by Ollama, LLAMA, LangChain, Python.
 
 ## Overview
 
@@ -13,7 +13,6 @@ This project implements a chatbot with a clean web interface using Streamlit. It
 - 📝 Code generation capabilities
 - 🐞 Debugging support
 - 💬 Interactive chat interface
-- 🎨 Dark mode UI
 - 🛡️ Content moderation
 - 💾 In-memory response caching
 
