@@ -25,5 +25,14 @@ CUSTOM_CSS = """
         background-color: #2d2d2d !important;
         color: white !important;
     }
+    .stApp > header {
+        background-color: transparent;
+    }
+    .main > div:first-child {
+        padding-top: 0rem;
+    }
+    .block-container {
+        padding-top: 1rem;
+    }
 </style>
 """

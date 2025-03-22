@@ -2,7 +2,7 @@ import streamlit as st
 import re
 from core.llm import initialize_llm
 from core.prompt_templates import get_system_prompt, build_prompt_chain
-from ui.components import initialize_ui, display_chat_history
+from ui.components import initialize_ui, display_chat_history,setup_sidebar
 from utils.cache import initialize_cache
 from utils.moderator import moderate_prompt
 from langchain_core.output_parsers import StrOutputParser
@@ -10,6 +10,7 @@ from langchain_core.output_parsers import StrOutputParser
 def main():
     initialize_cache()
     initialize_ui()
+    setup_sidebar()
     
     llm_engine = initialize_llm()
     system_prompt = get_system_prompt()
